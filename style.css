@@ -3,8 +3,9 @@ body
 	margin: 0;
 	padding: 0;
 	background: url('n.jpg');
+	height:100vh;
 	background-repeat:no-repeat;
-	background-size:cover;
+	background-size:auto;
 }
 .watermark
 {
@@ -18,12 +19,21 @@ body
 }
 header
 {
-	width: auto;
+	width: 1540px;
 	height: 15vh;
-	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8)), url('img/d1.png');
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.8));
 
+}
+nav
+{
+	width: 1540px;
+	height: 15vh;
+	background: rgba(0, 0, 0, 0.2);
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	text-transform: uppercase;
 }
 nav
 {
@@ -59,7 +69,7 @@ nav .menu a
 	text-decoration: none;
 	color: white;
 	letter-spacing: 1px;
-    position: relative;
+        position: relative;
 	display:block;
 	height: 40px;
 	font-size: 20px;
@@ -96,7 +106,7 @@ nav .menu a:first-child:hover
   
   padding: 50px;
   margin: 10px;
-  height: 100vh;
+  height: 85vh;
   display: grid;
   grid-template-columns:repeat(7, 150px) ;
   grid-template-rows: repeat(3, 150px);
